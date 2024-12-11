@@ -1,3 +1,4 @@
+```sql
 -- 1. Create the employees table
 CREATE TABLE employees (
     emp_id NUMBER PRIMARY KEY,
@@ -69,3 +70,5 @@ END;
 
 -- 7. Query the audit log to verify changes
 SELECT * FROM audit_log;
+
+```
